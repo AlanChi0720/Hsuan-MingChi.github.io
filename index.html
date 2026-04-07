@@ -21,7 +21,7 @@
 					<div id="intro">	
 						<h1>Hsuan-Ming Chi's Portfolio</h1>
 						<p>
-							NYU Biotechnology master's with 4+ years in molecular biology and wet lab research — now building at the intersection of biology and code. I analyze genomic datasets, automate lab workflows with Python, and apply bioinformatics tools to real research problems. <a href="https://www.linkedin.com/in/hmchi/">@HsuanMingChi</a>
+							PhD applicant in computational biology and bioinformatics. NYU Biotechnology M.S. with 3+ years of hands-on research experience — from wet lab to HPC clusters. I build single-cell genomics pipelines, analyze multi-omics datasets, and use Python and Snakemake to turn raw sequencing data into biological insight. <a href="https://www.linkedin.com/in/hmchi/">@HsuanMingChi</a>
 						</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -52,60 +52,89 @@
 						<!-- Featured Post -->
 						 	<article class="post featured">
 								<header class="major">
-									<h2><a href="https://github.com/AlanChi0720/slope_app">Slope Analyzer<br /></a></h2>
+									<h2><a href="https://github.com/AlanChi0720/scenicplus-multiome-analysis">SCENIC+ Multiome Analysis<br /></a></h2>
 									<p>
-										Python toolkit that pulls Riot Games ranked data and player metadata into pandas for leaderboard analysis and visualization. Includes reusable API helpers and DataFrame transformations for rank distribution insights.
+										End-to-end multi-omics pipeline integrating scRNA-seq and scATAC-seq data with SCENIC+ to map gene regulatory networks and chromatin accessibility dynamics during motor neuron development. Deployed on the Rutgers Amarel HPC cluster using Snakemake and SLURM for reproducible, scalable execution across large 10X Genomics Multiome datasets.
 									</p>
 								</header>
-								<a href="#" class="image main"><img src="images/slope analyzer img.png" alt="" /></a>
+								<a href="https://github.com/AlanChi0720/scenicplus-multiome-analysis" class="image main"><img src="images/pic01.jpg" alt="SCENIC+ Multiome Analysis pipeline" /></a>
 								<ul class="actions special">
-									<li><a href="https://github.com/AlanChi0720/slope_app" class="button large">View Project</a></li>
+									<li><a href="https://github.com/AlanChi0720/scenicplus-multiome-analysis" class="button large">View Project</a></li>
 								</ul>
 							</article>
-							<!-- Mouse Sheet Manager -->
+							<!-- scRNA-seq Motor Neuron Analysis -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="https://github.com/AlanChi0720/Mouse-Sheet-Manager">Mouse Sheet Manager<br /></a></h2>
+									<h2><a href="https://github.com/AlanChi0720/scRNA-seq-Claude-code-vibe-coding-">scRNA-seq Motor Neuron Subtype Analysis<br /></a></h2>
 									<p>
-										This is a Python application that allows users to manage mouse data in a SQLite database. The application provides a graphical user interface (GUI) built with Tkinter, where users can input cage numbers, mouse numbers, and dates of birth for mice.
+										Single-cell RNA-seq pipeline that identifies and characterizes motor neuron subtypes from 10X Genomics Multiome data. Performs QC, normalization, Leiden clustering, and marker-based annotation to distinguish Alpha MN, Gamma MN, and Beta/Type-3 subtypes using canonical markers (Chat, Mnx1/HB9, Nefh, Chodl, Esrrg). Built with Scanpy and AnnData in Python.
 									</p>
 								</header>
-								<a href="#" class="image main"><img src="images/catmouse.jpg" alt="" /></a>
+								<a href="https://github.com/AlanChi0720/scRNA-seq-Claude-code-vibe-coding-" class="image main"><img src="images/pic02.jpg" alt="scRNA-seq UMAP of motor neuron subtypes" /></a>
 								<ul class="actions special">
-									<li><a href="https://github.com/AlanChi0720/Mouse-Sheet-Manager" class="button large">View Project</a></li>
+									<li><a href="https://github.com/AlanChi0720/scRNA-seq-Claude-code-vibe-coding-" class="button large">View Project</a></li>
 								</ul>
 							</article>
 
-						<!-- Posts -->
+						<!-- Section Divider -->
+							<section style="padding: 0; border-top: none;">
+								<hr class="major" />
+								<header style="text-align: center; margin-bottom: 2rem;">
+									<h2>Other Projects</h2>
+									<p>General programming and automation projects from personal exploration.</p>
+								</header>
+							</section>
+
+						<!-- Posts — Other Projects (Mouse Sheet Manager + side projects) -->
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="https://github.com/AlanChi0720/flask_mongoDB">Flask Web Application with MongoDB<br /></a></h2>
+										<h2><a href="https://github.com/AlanChi0720/Mouse-Sheet-Manager">Mouse Sheet Manager<br /></a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/maxresdefault.jpg" alt="" /></a>
-									<p>A simple web application built with Flask and MongoDB, demonstrating basic web routing, form handling, session management, and database operations. This project serves as a practical example of integrating a Python web framework with a NoSQL database.</p>
+									<a href="https://github.com/AlanChi0720/Mouse-Sheet-Manager" class="image fit"><img src="images/catmouse.jpg" alt="" /></a>
+									<p>Desktop tool for managing mouse colony records in a research lab. Built with Python, Tkinter, and SQLite — tracks cage assignments, mouse IDs, genotypes, and dates of birth. Designed to replace manual spreadsheets and reduce data-entry errors in an active breeding colony.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/AlanChi0720/flask_mongoDB" class="button">Full Story</a></li>
+										<li><a href="https://github.com/AlanChi0720/Mouse-Sheet-Manager" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/AlanChi0720/slope_app">Slope Analyzer<br /></a></h2>
+									</header>
+									<a href="https://github.com/AlanChi0720/slope_app" class="image fit"><img src="images/slope analyzer img.png" alt="" /></a>
+									<p>Python toolkit that pulls Riot Games ranked data into pandas for leaderboard analysis and visualization. Demonstrates REST API integration, DataFrame transformations, and rank distribution analysis.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/AlanChi0720/slope_app" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/AlanChi0720/flask_mongoDB">Flask Web App with MongoDB<br /></a></h2>
+									</header>
+									<a href="https://github.com/AlanChi0720/flask_mongoDB" class="image fit"><img src="images/maxresdefault.jpg" alt="" /></a>
+									<p>Web application built with Flask and MongoDB demonstrating REST routing, form handling, session management, and NoSQL database operations.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/AlanChi0720/flask_mongoDB" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										<h2><a href="https://github.com/AlanChi0720/chess_bot">Chess Bot<br /></a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/chess_bot.jpg" alt="" /></a>
-									<p>A Python-based chess game that lets you play against a Stockfish AI opponent in your console. Challenge yourself with UCI move notation and test your skills against a powerful chess engine!</p>
+									<a href="https://github.com/AlanChi0720/chess_bot" class="image fit"><img src="images/chess_bot.jpg" alt="" /></a>
+									<p>Console chess game with a Stockfish AI opponent. Implements the UCI protocol for move notation and wraps the Stockfish engine in Python for interactive play.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/AlanChi0720/chess_bot" class="button">Full Story</a></li>
+										<li><a href="https://github.com/AlanChi0720/chess_bot" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										<h2><a href="https://github.com/AlanChi0720/typeracer-bot">Typeracer Bot<br /></a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/type racer bot.jpg" alt="" /></a>
-									<p>TypeRacer Bot is a Python script that automates typing on TypeRacer.com. It uses Selenium WebDriver to navigate the site and extract text, then employs PyAutoGUI to simulate keystrokes, completing races automatically. This tool demonstrates web automation and keyboard input simulation, but should be used responsibly and for educational purposes only.</p>
+									<a href="https://github.com/AlanChi0720/typeracer-bot" class="image fit"><img src="images/type racer bot.jpg" alt="" /></a>
+									<p>Python script automating TypeRacer.com using Selenium WebDriver for DOM interaction and PyAutoGUI for keystroke simulation. Demonstrates browser automation and input simulation techniques.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/AlanChi0720/typeracer-bot" class="button">Full Story</a></li>
+										<li><a href="https://github.com/AlanChi0720/typeracer-bot" class="button">View Project</a></li>
 									</ul>
 								</article>
 							</section>

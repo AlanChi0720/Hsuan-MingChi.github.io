@@ -49,4 +49,8 @@ Projects are `<article>` elements inside `<section class="posts">` in `index.htm
 
 ## Images
 
-Project images are stored directly in `images/`. Use descriptive filenames. Windows-style backslash paths (`images\file.jpg`) appear in the existing HTML but forward slashes work cross-platform and are preferred for new entries.
+Project images are stored directly in `images/`. Use descriptive filenames. Always use forward slashes in image paths (e.g., `images/file.jpg`) — backslashes break on GitHub Pages.
+
+## Skills
+
+The `frontend-design` skill is installed for this project. Use `/frontend-design` when building or redesigning UI components, pages, or sections to get production-grade, distinctive frontend output.

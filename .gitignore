@@ -15,6 +15,9 @@ $RECYCLE.BIN/
 # Linux
 *~
 
+# Claude Code
+.claude/
+
 # Editors
 .vscode/
 .idea/
