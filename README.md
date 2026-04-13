@@ -2,15 +2,15 @@
 
 Personal portfolio for Hsuan-Ming Chi, a biotechnology master's graduate (NYU) with 4+ years of wet lab and molecular biology experience who builds software tools at the intersection of biology and programming.
 
-Live site: https://alanski0720.github.io
+Live site: https://alanchi0720.github.io/Hsuan-MingChi.github.io/
 
 ## Pages
 
 | Page | Description |
 |---|---|
 | `index.html` | Home / Project Gallery |
-| `generic.html` | Resume |
-| `elements.html` | Outside of Work |
+| `resume.html` | Resume |
+| `outside.html` | Outside of Work |
 
 ## Tech Stack
 

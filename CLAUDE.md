@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a static personal portfolio website for Hsuan-Ming Chi, built on the "Massively" template by HTML5 UP. It is deployed as a GitHub Pages site (`Hsuan-MingChi.github.io`). There is no build system, package manager, or server-side code.
+This is a static personal portfolio website for Hsuan-Ming Chi, built on the "Massively" template by HTML5 UP. It is deployed as a GitHub Pages site (`https://alanchi0720.github.io/Hsuan-MingChi.github.io/`). There is no build system, package manager, or server-side code.
 
 ## Serving Locally
 
