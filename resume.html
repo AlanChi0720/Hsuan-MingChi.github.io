@@ -62,6 +62,7 @@
 									<li>Built and maintained single-cell multi-omics analysis workflows on Rutgers' Amarel HPC cluster (Conda, SLURM) to support motor neuron development and ALS projects.</li>
 									<li>Piloted SCENIC+ and related regulatory network tools to interpret motor neuron subtype-specific transcriptional programs from lab single-cell datasets.</li>
 									<li>Performed and optimized RNA FISH experiments in mouse spinal cord to validate single-cell-derived motor neuron subtype markers and spatial expression patterns.</li>
+										<li>Established rotarod and CatWalk gait analysis workflows to assess motor function and coordination in transgenic ALS mouse models.</li>
 									<li>Co-led setup of a new neuroscience laboratory, including ordering equipment, organizing benches, and implementing safety and inventory systems.</li>
 									<li>Managed transgenic mouse colonies for motor neuron and ALS studies, including breeding, genotyping, and coordination with the animal facility.</li>
 									<li>Wrote documentation and trained lab members to run analysis jobs on the Amarel cluster; mentored junior staff and coordinated shared computational resources.</li>
@@ -93,12 +94,24 @@
 								<h3>Projects</h3>
 								<ul>
 									<li>
+										<a href="https://github.com/AlanChi0720/scseq_toolbox">scRNA-seq Interactive Pipeline Toolbox</a> —
+										Browser-based scRNA-seq analysis app (Streamlit, Scanpy) guiding users through QC, normalization, HVG selection, PCA, Leiden clustering, and UMAP with interactive parameter control. Modular step/preset architecture supports h5ad, 10x h5, and mtx inputs and exports reproducibility manifests.
+									</li>
+									<li>
+										<a href="https://github.com/AlanChi0720/rotarod_analysis_tool">Rotarod &amp; Gait Behavioral Analysis Tool</a> —
+										Statistical analysis and visualization tool for rotarod data supporting 2-way/3-way ANOVA (Group × Day × Sex), per-day Welch t-tests, and sex-stratified modes; auto-generates publication-ready plots used to assess motor function in ALS mouse models. Built with pandas, SciPy, statsmodels, and matplotlib.
+									</li>
+									<li>
 										<a href="https://github.com/AlanChi0720/scenicplus-multiome-analysis">SCENIC+ Multiome Analysis Pipeline</a> —
 										End-to-end multi-omics pipeline integrating scRNA-seq and scATAC-seq with SCENIC+ to map gene regulatory networks during motor neuron development. Deployed on the Rutgers Amarel HPC cluster via Snakemake and SLURM.
 									</li>
 									<li>
 										<a href="https://github.com/AlanChi0720/scRNA-seq-Claude-code-vibe-coding-">scRNA-seq Motor Neuron Subtype Analysis</a> —
 										Single-cell RNA-seq pipeline (Scanpy, AnnData) for QC, normalization, Leiden clustering, and marker-based annotation of motor neuron subtypes (Alpha MN, Gamma MN, Beta/Type-3) from 10X Genomics Multiome data.
+									</li>
+									<li>
+										<a href="https://github.com/AlanChi0720/bio_ai">Bio-AI Self-Study Curriculum</a> —
+										Self-study curriculum applying ML/DL to biology: gene-expression classification (GSE2034), DNA k-mer classification, protein embedding with ESM-2, molecular solubility prediction (ECFP/Morgan), and single-cell clustering (PBMC3k). Built with PyTorch, scikit-learn, RDKit, and Scanpy.
 									</li>
 									<li>
 										<a href="https://github.com/AlanChi0720/Mouse-Sheet-Manager">Mouse Sheet Manager</a> —
@@ -145,8 +158,10 @@
 								</ul>
 
 								<h3>Skills</h3>
-								<p><strong>Programming &amp; Data Analysis:</strong> Python, R, MATLAB, SQL, Git/GitHub, Pandas, NumPy, Scanpy, AnnData, SCENIC+, Snakemake, Tableau, IGV, ICM-Pro, MongoDB</p>
-								<p><strong>Laboratory:</strong> PCR, qPCR, NGS, RNA FISH, Immunofluorescence, DNA/RNA extraction, Protein engineering, Mouse colony management</p>
+								<p><strong>Programming &amp; Data Analysis:</strong> Python, R, MATLAB, SQL, Git/GitHub, Pandas, NumPy, Tableau, IGV, ICM-Pro, MongoDB</p>
+								<p><strong>Bioinformatics &amp; AI/ML:</strong> scRNA-seq, scATAC-seq, SCENIC+, Scanpy, Snakemake, SLURM/HPC, PyTorch, scikit-learn, ESM-2, RDKit, Streamlit</p>
+								<p><strong>Molecular &amp; Cellular Techniques:</strong> PCR, qPCR, NGS library prep, Immunofluorescence, RNA FISH, DNA/RNA extraction, Protein engineering</p>
+								<p><strong>In Vivo &amp; Behavioral:</strong> Transgenic mouse colony management, Rotarod analysis, CatWalk gait analysis, Genotyping</p>
 
 								<h3>Interests</h3>
 								<p>Snowboarding, Basketball, Baseball, Boy Scouts</p>
